@@ -9,17 +9,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{FB0480A2-8737-413B-9936-A62495649C22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{83A32879-A3BA-426C-A6D2-485B2C599DE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{83A32879-A3BA-426C-A6D2-485B2C599DE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{BA3E35AF-B284-46D5-A8D2-4DFBF8B995FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{BA3E35AF-B284-46D5-A8D2-4DFBF8B995FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{6F5E6D0E-2623-48DD-9CBC-CA8472369974}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{6F5E6D0E-2623-48DD-9CBC-CA8472369974}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{6D3BDC7A-594A-49A2-9327-BCFDE9186C60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{6D3BDC7A-594A-49A2-9327-BCFDE9186C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{A9B06274-784D-41DB-9B7E-5580E63ED5BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{A9B06274-784D-41DB-9B7E-5580E63ED5BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{2E15C6BB-4300-4C8D-9055-CDDBC96715E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{2E15C6BB-4300-4C8D-9055-CDDBC96715E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{54EDBCCE-908C-4DB4-8DF9-DD70473C77F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{0BE21D90-1F8F-43BB-882F-BBB03364E51D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{2E15C6BB-4300-4C8D-9055-CDDBC96715E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E15C6BB-4300-4C8D-9055-CDDBC96715E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E15C6BB-4300-4C8D-9055-CDDBC96715E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54EDBCCE-908C-4DB4-8DF9-DD70473C77F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54EDBCCE-908C-4DB4-8DF9-DD70473C77F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54EDBCCE-908C-4DB4-8DF9-DD70473C77F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54EDBCCE-908C-4DB4-8DF9-DD70473C77F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE21D90-1F8F-43BB-882F-BBB03364E51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE21D90-1F8F-43BB-882F-BBB03364E51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE21D90-1F8F-43BB-882F-BBB03364E51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE21D90-1F8F-43BB-882F-BBB03364E51D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

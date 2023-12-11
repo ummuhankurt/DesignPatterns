@@ -6,7 +6,6 @@ Console.WriteLine(creditManager.Calculate());
 
 
 
-
 abstract class CreditBase
 {
     public abstract int Calculate();
